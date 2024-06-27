@@ -1,0 +1,31 @@
+.nav {
+	display: flex;
+	justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+
+.nav__list {
+  ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+  }
+  a {
+    color: #181818;
+    font-family: Circular Std;
+    font-size: 16px;
+    font-weight: 450;
+    line-height: 150%; /* 24px */
+  }
+}
+
+a.active{
+  color: #35AFF4;
+}
+
+a:hover{
+  color: #35AFF4;
+  transition: background-color 0.25s ease-in, color 0.25s ease-in, opacity 0.25s ease-in;
+}
+

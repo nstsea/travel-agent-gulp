@@ -1,0 +1,36 @@
+
+.discover {
+  padding: 60px 0;
+}
+
+.discover-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+}
+
+.discover__title {
+  margin-bottom: 24px;
+}
+
+.discover__text {
+  margin-bottom: 40px;
+}
+
+.discover__picture {
+  position: relative;
+}
+
+.discover__picture-hint {
+  position: absolute;
+  top: 90px;
+  left: 40px;
+  z-index: 9;
+}
+
+.discover__picture-scroll {
+  position: absolute;
+  right: 15px;
+  bottom: 20px;
+}

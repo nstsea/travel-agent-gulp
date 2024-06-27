@@ -1,0 +1,54 @@
+.card-review {
+  display: flex;
+  padding: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  min-height: 322px;
+
+  border-radius: 8px;
+  background: #FFF;
+  box-shadow: 0px 4px 10px 0px rgba(23, 28, 31, 0.23);
+}
+
+.card-review__rating {
+  display: flex;
+  gap: 4px;
+}
+
+.card-review__desc {
+  color: var(--text-muted);
+  font-family: Circular Std;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 150%; /* 24px */
+}
+
+.card-review__author {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.card-review__author-image {
+  border-radius: 100px;
+}
+.card-review__author-desc {
+ 
+}
+.card-review__author-name {
+  color: var(--text-color);
+  font-family: Circular Std;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 24px */
+}
+.card-review__author-role {
+  color: var(--text-muted);
+  font-family: Circular Std;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 150%; /* 24px */
+}

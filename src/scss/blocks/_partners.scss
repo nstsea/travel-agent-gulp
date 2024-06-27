@@ -1,0 +1,26 @@
+.partner {
+  padding: 60px 0;
+}
+
+.partners__row {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: center;
+}
+
+.partners__title {
+  color: var(--text-muted);
+  font-family: Circular Std;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 140%; /* 33.6px */
+
+  align-self: end;
+}
+
+
+.partners__content {
+  display: flex;
+  gap: 32px;
+}

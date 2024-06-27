@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Стартовый шаблон</title>
+		<link rel="stylesheet" href="./../../build/css/main.css" />
+		<link rel="stylesheet" href="./fonts/Circular Std/stylesheet.css">
+	</head>
+	<body>
+		<header class="header">
+    <div class="container">
+        <nav class="nav">
+            <a href="#!" class="logo">
+                <img src="./img/icons/logo.svg" alt="Logo">
+            </a>
+
+            <div class="nav__list">
+                <ul>
+                    <a href="#!" class="active"><li>Home</li></a>
+                    <a href="#!"><li>About</li></a>
+                    <a href="#!"><li>Packages</li></a>
+                    <a href="#!"><li>FAQ</li></a>
+                    <a href="#!"><li>Community</li></a>
+                </ul>
+            </div>
+
+            <div class="nav__btns">
+                <a href="#!" class="btn-login">Login</a>
+                <a href="#!" class="btn-signup">Signup</a>
+            </div>
+        </nav>
+    </div>
+</header>
+
+		<main>
+			<section class="discover">
+  <div class="container">
+    <div class="discover-grid">
+
+      <div class="discover__desc">
+        <div class="discover__title">
+          <h1 class="title-1 title-1--decor">Discover your favorite place with us</h1>
+        </div>
+        <div class="discover__text">
+          <div class="text">
+            <p>
+              Your journey begins here with our curated travel experiences. Discover new horizons, create lasting memories, and explore the world with our expertly crafted itineraries.
+            </p>
+          </div>
+        </div>
+
+        <div class="discover__form">
+          <form action="" class="form">
+
+  <label for="" class="form__label">
+    <span>Locations</span>
+    <input id="autoCompleteCountry" type="text" name="country" class="form__input" placeholder="e.g Bali, Indonesia" autocomplete="off">
+  </label>
+
+  <div class="form__devider"></div>
+  <label for="" class="form__date">
+    <span>Date and time</span>
+    <input id="datePicker" type="text" class="form__input" placeholder="MM/DD/YYYY" autocomplete="off">
+  </label>
+  
+  <button class="form__btn">
+    <img src="./img/icons/search.svg" alt="Search">
+  </button>
+
+</form>
+        </div>
+
+      </div>
+
+      <div class="discover__picture">
+
+         <div class="discover__picture-hint">
+          <div class="discover-hint">
+  <div class="discover-hint__picture"> 
+    <img class="discover-hint__img" src="./img/hints/coco-de-heaven.jpg" alt="Hints">
+  </div>
+
+  <div class="hint-discover__desc">
+    <div class="hint-discover__title">
+      Coco De Heaven
+      <span class="hint-discover__rating">(4.5)</span>
+    </div>
+    <div class="hint-discover__price"><span class="muted">Starts from</span> <i>$</i>400</div>
+  </div>
+</div>
+        </div> 
+
+        <div class="discover__picture-scroll">
+          <div class="scroll-down">
+  <img src="./img/icons/scroll-down-text.svg" alt="" class="scroll-down__text">  
+  <img src="./img/icons/scroll-down.svg" alt="" class="scroll-down__icon">
+</div>
+        </div>
+
+        <img src="./img/discover/hero-img.png" alt="" class="discover__picture-img">
+      </div>
+
+    </div>
+  </div>
+</section>
+			<section class="partner">
+  <div class="container">
+    <div class="partners__row">
+      
+      <h2 class="partners__title">
+       Our Travel Partner
+      </h2>
+      
+      <div class="partners__content">
+        <img src="./img/partners/traveloka.svg" alt="Traveloka">
+        <img src="./img/partners/airbnb.svg" alt="Airbnb">
+        <img src="./img/partners/expedia.svg" alt="Expedia">
+        <img src="./img/partners/skyscanner.svg" alt="Skyscanner">
+        <img src="./img/partners/american-airlines.svg" alt="American-airlines">
+      </div>
+
+    </div>
+  </div>
+</section>
+			<section class="popular">
+  <div class="container">
+    <div class="popular__top">
+      <div class="popular__title">
+        <h2 class="title-3">Popular Destinations</h2>
+        <div class="text">See our popular destinations that our client choose</div>
+      </div>
+
+      <div class="popular_controls">
+        <button id="sliderPrev">
+          <img src="./img/icons/btn-back.svg" alt="Arrow-back">
+        </button>
+
+        <button id="sliderNext">
+          <img src="./img/icons/btn-next.svg" alt="Arrow-next">
+        </button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Slider-cards -->
+  <div class="container-right">
+    <div class="popular__slider">
+
+
+
+      
+<div class="swiper">
+
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><div class="card">
+  <div class="card__img">
+    <img src="./img/popular/venice.jpg" alt="Venice">
+  </div>
+
+  <div class="card__title-wrapper">
+    <h3 class="card__title">Venice, Italy</h3>
+    <div class="card__rating">(4.5)</div>
+  </div>
+  <div class="card__price">Starts from <span>$</span><i>900</i></div>
+
+</div></div>
+    <div class="swiper-slide"><div class="card">
+  <div class="card__img">
+    <img src="./img/popular/bali.jpg" alt="Bali">
+  </div>
+
+  <div class="card__title-wrapper">
+    <h3 class="card__title">Bali, Indonesia</h3>
+    <div class="card__rating">(4.5)</div>
+  </div>
+  <div class="card__price">Starts from <span>$</span><i>480</i></div>
+
+</div></div>
+    <div class="swiper-slide"><div class="card">
+  <div class="card__img">
+    <img src="./img/popular/bangkok.jpg" alt="Venice">
+  </div>
+
+  <div class="card__title-wrapper">
+    <h3 class="card__title">Bangkok, Thailand</h3>
+    <div class="card__rating">(4.5)</div>
+  </div>
+  <div class="card__price">Starts from <span>$</span><i>440</i></div>
+
+</div></div>
+    <div class="swiper-slide"><div class="card">
+  <div class="card__img">
+    <img src="./img/popular/santorini.jpg" alt="Venice">
+  </div>
+
+  <div class="card__title-wrapper">
+    <h3 class="card__title">Santorini, Greek</h3>
+    <div class="card__rating">(4.5)</div>
+  </div>
+  <div class="card__price">Starts from <span>$</span><i>900</i></div>
+
+</div></div>
+    <div class="swiper-slide"><div class="card">
+  <div class="card__img">
+    <img src="./img/popular/paris.jpg" alt="Paris">
+  </div>
+
+  <div class="card__title-wrapper">
+    <h3 class="card__title">Paris, France</h3>
+    <div class="card__rating">(4.5)</div>
+  </div>
+  <div class="card__price">Starts from <span>$</span><i>1100</i></div>
+
+</div></div>
+    <div class="swiper-slide"><div class="card">
+  <div class="card__img">
+    <img src="./img/popular/new-york.jpg" alt="New-york">
+  </div>
+
+  <div class="card__title-wrapper">
+    <h3 class="card__title">New York, USA</h3>
+    <div class="card__rating">(4.5)</div>
+  </div>
+  <div class="card__price">Starts from <span>$</span><i>1800</i></div>
+
+</div></div>
+    <div class="swiper-slide"><div class="card">
+  <div class="card__img">
+    <img src="./img/popular/dubai.jpg" alt="New-york">
+  </div>
+
+  <div class="card__title-wrapper">
+    <h3 class="card__title">Dubai, UAE</h3>
+    <div class="card__rating">(4.5)</div>
+  </div>
+  <div class="card__price">Starts from <span>$</span><i>900</i></div>
+
+</div></div>
+
+  </div>
+  </div>
+
+
+    </div> 
+  </div>
+  <!-- Slider-cards -->
+</section>
+			<section class="service">
+  <div class="container">
+    <div class="service__row">
+      
+      <div class="service__desc">
+        <div class="service-desc__wrapper">
+          <div class="service-desc__top">
+            <h3>Embark on unforgettable journeys with our premium travel services</h3>
+
+            <p>Picture-perfect getaways are just a click away. Find your slice of paradise, whether it's a tropical island, a charming city, or an enchanting countryside retreat.</p>
+          </div>
+
+          <div class="service-desc__bottom">
+            <div class="service-desc__number">
+                
+                <div class="service-desc__card">
+                  <div class="service-desc__img">
+                    <img src="../../../build/img/icons/Frame 75.svg" alt="">
+                  </div>  
+                  <div class="service-desc__title">
+                    <h3>Best Choice</h3>
+                  
+                  <p class="service-desc__txt">
+                    We always prioritize our customer comfort and satisfaction. That’s why we only accept the best hotel and destination.
+                  </p>
+                </div>
+                </div>   
+                
+                <div class="service-desc__card">
+                  <div class="service-desc__img">
+                    <img src="../../../build/img/icons/Frame 75-2.svg" alt="">
+                  </div>  
+                  <div class="service-desc__title">
+                    <h3>Competitive Prices</h3>
+                  
+                  <p class="service-desc__txt">
+                    Altough the price tends to be cheaper but it will not affect the quality of service.
+                  </p>
+                </div>
+                </div>
+
+                <div class="service-desc__card">
+                  <div class="service-desc__img">
+                    <img src="../../../build/img/icons/Frame 75-1.svg" alt="">
+                  </div>  
+                  <div class="service-desc__title">
+                    <h3>Refund and Reschedule</h3>
+                  
+                  <p class="service-desc__txt">
+                    Don’t worry if suddenly you have problem and want to reschule or refund, you can get fully.
+                  </p>
+                </div>
+                </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="service__img">
+        <div class="service-img__top">
+          <img class="rounded-img" src="../../../build/img/premium/01.jpg" alt="">
+        </div>
+
+        <div class="service-img__down">
+          <img class="rounded-img"  src="../../../build/img/premium/02.jpg" alt="">
+          <img class="rounded-img" src="../../../build/img/premium/03.jpg" alt="">
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+</section> 
+			<section class="explore">
+  <div class="container">
+    <div class="explore__row">
+
+      <div class="explore__img">
+        <img class="explore__image" src="../../../build/img/explore/img.jpg" alt="">
+
+      </div>
+
+      <div class="explore__desc">
+
+        <div class="explore-desc__title">With Our Service We Will Explore Something Different</div>
+        <p class="explore-desc__muted">Uncover hidden gems and immerse yourself in vibrant cultures. From breathtaking landscapes to awe-inspiring destinations, let us guide you to the most extraordinary places on the planet.</p>
+       
+        <button class="explore__more">Explore more</button>
+
+      </div>
+    </div>
+  </div>
+</section> 
+			<section class="testimonials">
+  <div class="container">
+    <div class="testimonials__grid">
+      <div class="testimonials__col">
+        <div class="card-review">
+  <div class="card-review__rating">
+    <img src="./img/icons/star.svg" alt="Star">
+    <img src="./img/icons/star.svg" alt="Star">
+    <img src="./img/icons/star.svg" alt="Star">
+    <img src="./img/icons/star.svg" alt="Star">
+    <img src="./img/icons/star.svg" alt="Star">
+  </div>
+
+  <p class="card-review__desc">
+    "Amazing experience! The travel website made booking our vacation a breeze. Everything was well-organized, and we had a fantastic time exploring new places. Highly recommend!"
+  </p>
+  
+
+  <div class="card-review__author">
+
+    <div class="card-review__author-image">
+      <img src="./img/testimonials/04.jpg" alt="Photo">
+    </div>
+
+    <div class="card-review__author-desc">
+      <h4 class="card-review__author-name">Nichole Edward</h4>
+      <p class="card-review__author-role">Travel Enthusiast</p>
+    </div>
+
+  </div>
+
+</div>
+        <div class="card-review">
+  <div class="card-review__rating">
+    <img src="./img/icons/star.svg" alt="Star">
+    <img src="./img/icons/star.svg" alt="Star">
+    <img src="./img/icons/star.svg" alt="Star">
+    <img src="./img/icons/star.svg" alt="Star">
+    <img src="./img/icons/star-off.svg" alt="Star">
+  </div>
+
+  <p class="card-review__desc">
+    "An outstanding resource for travel enthusiasts! The website's destination reviews and travel advice were spot-on. I now trust their recommendations for all my trips.."
+  </p>
+  
+
+  <div class="card-review__author">
+
+    <div class="card-review__author-image">
+      <img src="./img/testimonials/01.jpg" alt="Photo">
+    </div>
+
+    <div class="card-review__author-desc">
+      <h4 class="card-review__author-name">Hendra Paru Paru</h4>
+      <p class="card-review__author-role">Travel Enthusiast</p>
+    </div>
+
+  </div>
+
+</div>
+        <div class="card-review">
+  <div class="card-review__rating">
+    <img src="./img/icons/star.svg" alt="Star">
+    <img src="./img/icons/star.svg" alt="Star">
+    <img src="./img/icons/star.svg" alt="Star">
+    <img src="./img/icons/star.svg" alt="Star">
+    <img src="./img/icons/star.svg" alt="Star">
+  </div>
+
+  <p class="card-review__desc">
+    "I had a seamless booking process with this travel website. Their website was easy to navigate, and I got fantastic deals on flights and accommodation. Will definitely use them for future trips."
+  </p>
+  
+
+  <div class="card-review__author">
+
+    <div class="card-review__author-image">
+      <img src="./img/testimonials/02.jpg" alt="Photo">
+    </div>
+
+    <div class="card-review__author-desc">
+      <h4 class="card-review__author-name">Akbar Cenglu</h4>
+      <p class="card-review__author-role">Travel Enthusiast</p>
+    </div>
+
+  </div>
+
+</div>
+      </div>
+
+      <div class="testimonials__col">
+          <div class="card-review">
+  <div class="card-review__rating">
+    <img src="./img/icons/star.svg" alt="Star">
+    <img src="./img/icons/star.svg" alt="Star">
+    <img src="./img/icons/star.svg" alt="Star">
+    <img src="./img/icons/star.svg" alt="Star">
+    <img src="./img/icons/star-off.svg" alt="Star">
+  </div>
+
+  <p class="card-review__desc">
+    "The detailed travel guides provided by this website were invaluable during our journey. We felt confident exploring a new destination, thanks to their helpful tips and insights. erat."
+  </p>
+  
+
+  <div class="card-review__author">
+
+    <div class="card-review__author-image">
+      <img src="./img/testimonials/03.jpg" alt="Photo">
+    </div>
+
+    <div class="card-review__author-desc">
+      <h4 class="card-review__author-name">Jake Paul</h4>
+      <p class="card-review__author-role">Travel Enthusiast</p>
+    </div>
+
+  </div>
+
+</div>
+          <div class="card-review">
+  <div class="card-review__rating">
+    <img src="./img/icons/star.svg" alt="Star">
+    <img src="./img/icons/star.svg" alt="Star">
+    <img src="./img/icons/star.svg" alt="Star">
+    <img src="./img/icons/star.svg" alt="Star">
+    <img src="./img/icons/star-off.svg" alt="Star">
+  </div>
+
+  <p class="card-review__desc">
+    "The travel website's customer service is top-notch! They were quick to respond to my queries and helped me plan a dream vacation. It was an excellent experience from start to finish."
+  </p>
+  
+
+  <div class="card-review__author">
+
+    <div class="card-review__author-image">
+      <img src="./img/testimonials/05.jpg" alt="Photo">
+    </div>
+
+    <div class="card-review__author-desc">
+      <h4 class="card-review__author-name">Jennice Ong</h4>
+      <p class="card-review__author-role">Travel Enthusiast</p>
+    </div>
+
+  </div>
+
+</div>
+          <div class="card-review">
+  <div class="card-review__rating">
+    <img src="./img/icons/star.svg" alt="Star">
+    <img src="./img/icons/star.svg" alt="Star">
+    <img src="./img/icons/star.svg" alt="Star">
+    <img src="./img/icons/star.svg" alt="Star">
+    <img src="./img/icons/star.svg" alt="Star">
+  </div>
+
+  <p class="card-review__desc">
+    "Hands down the best travel website I've ever used! The user interface was so intuitive, and I was able to book my dream vacation effortlessly. erat."
+  </p>
+  
+
+  <div class="card-review__author">
+
+    <div class="card-review__author-image">
+      <img src="./img/testimonials/06.jpg" alt="Photo">
+    </div>
+
+    <div class="card-review__author-desc">
+      <h4 class="card-review__author-name">Jimmy Key</h4>
+      <p class="card-review__author-role">Travel Enthusiast</p>
+    </div>
+
+  </div>
+
+</div>
+      </div>
+
+      <div class="testimonials__col">
+        <div class="card-review">
+  <div class="card-review__rating">
+    <img src="./img/icons/star.svg" alt="Star">
+    <img src="./img/icons/star.svg" alt="Star">
+    <img src="./img/icons/star.svg" alt="Star">
+    <img src="./img/icons/star.svg" alt="Star">
+    <img src="./img/icons/star.svg" alt="Star">
+  </div>
+
+  <p class="card-review__desc">
+    "Lorem ipsum dolor sit amet, Efficient and reliable! The travel website helped me find the best travel deals, and their user-friendly interface made the booking process a breeze."
+  </p>
+  
+
+  <div class="card-review__author">
+
+    <div class="card-review__author-image">
+      <img src="./img/testimonials/07.jpg" alt="Photo">
+    </div>
+
+    <div class="card-review__author-desc">
+      <h4 class="card-review__author-name">Jonathan R.</h4>
+      <p class="card-review__author-role">Travel Enthusiast</p>
+    </div>
+
+  </div>
+
+</div>
+        <div class="card-review">
+  <div class="card-review__rating">
+    <img src="./img/icons/star.svg" alt="Star">
+    <img src="./img/icons/star.svg" alt="Star">
+    <img src="./img/icons/star.svg" alt="Star">
+    <img src="./img/icons/star-off.svg" alt="Star">
+    <img src="./img/icons/star-off.svg" alt="Star">
+  </div>
+
+  <p class="card-review__desc">
+    "I loved the personalized itinerary feature of this travel website. It allowed me to plan my trip according to my preferences, making it a truly customized experience."
+  </p>
+  
+
+  <div class="card-review__author">
+
+    <div class="card-review__author-image">
+      <img src="./img/testimonials/08.jpg" alt="Photo">
+    </div>
+
+    <div class="card-review__author-desc">
+      <h4 class="card-review__author-name">Angela Cole</h4>
+      <p class="card-review__author-role">Travel Enthusiast</p>
+    </div>
+
+  </div>
+
+</div>
+        <div class="card-review">
+  <div class="card-review__rating">
+    <img src="./img/icons/star.svg" alt="Star">
+    <img src="./img/icons/star.svg" alt="Star">
+    <img src="./img/icons/star.svg" alt="Star">
+    <img src="./img/icons/star.svg" alt="Star">
+    <img src="./img/icons/star.svg" alt="Star">
+  </div>
+
+  <p class="card-review__desc">
+    "A one-stop-shop for all things travel! The website's variety of travel options and user reviews helped me make informed decisions and ensured a smooth trip."
+  </p>
+  
+
+  <div class="card-review__author">
+
+    <div class="card-review__author-image">
+      <img src="./img/testimonials/09.jpg" alt="Photo">
+    </div>
+
+    <div class="card-review__author-desc">
+      <h4 class="card-review__author-name">Bambang Susilo</h4>
+      <p class="card-review__author-role">Travel Enthusiast</p>
+    </div>
+
+  </div>
+
+</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+			<section class="subscribe">
+  <div class="container">
+    <div class="subscribe__row">
+
+      <div class="subscribe__desc">
+        <h4 class="subscribe__title">Join our newsletter to stay up to date</h4>
+        <p class="subscribe__text">Stay connected with our brand</p>
+      </div>
+
+
+      <div class="subscribe__form">
+
+        <form action="" class="subscribe-form">
+          <input type="email" class="subscribe-form__input" placeholder="Enter your email" autocomplete="false">
+          <button class="subscribe-form__btn">Subscribe</button>
+        </form>
+
+      </div>
+
+    </div>
+  </div>
+</section> 
+			
+		</main>
+			<footer class="footer">
+	<div class="container">
+		<div class="footer__row">
+
+			<div class="footer__copyright">
+				<div class="footer__logo">
+					<img src="../../../build/img/icons/logo.svg" alt="">
+				</div>
+
+				<p class="footer__title">Wanderlust meets wander well – Experience seamless travel with our services.</p>
+			</div>
+
+			<div class="footer__nav">
+
+				<div class="footer-nav">
+					<h4 class="footer-nav__title">Company</h4>
+					<ul class="footer-nav__list">
+						<a href="#!"><li>About Us</li></a>
+						<a href="#!"><li>Blog</li></a>
+						<a href="#!"><li>Customers</li></a>
+						<a href="#!"><li>Packages</li></a>
+						<a href="#!"><li>Community</li></a>
+					</ul>
+				</div>
+
+				<div class="footer-nav">
+					<h4 class="footer-nav__title">Help</h4>
+					<ul class="footer-nav__list">
+						<a href="#!"><li>Support</li></a>
+						<a href="#!"><li>FAQs</li></a>
+						<a href="#!"><li>Refund Policy</li></a>
+					</ul>
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+</footer>
+
+
+
+
+		<script src="./js/index.bundle.js"></script>
+	</body>
+</html>

@@ -1,0 +1,68 @@
+.subscribe {
+  overflow: hidden;
+
+  padding: 0 80px;
+}
+
+.subscribe-form {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.subscribe-form__input {
+  padding-left: 44px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  border-radius: 8px;
+  border: 1px solid #FFF;
+  background: var(--White, #FFF);
+
+  background-image: url(../../../build/img/icons/email.svg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: 12px 12px;
+
+  flex-grow: 1;
+  
+  &::placeholder{
+    color: var(--text-muted);
+    font-family: Circular Std;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 150%; /* 21px */
+  }
+}
+
+.subscribe-form__btn {
+  display: flex;
+  height: 48px;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  border-radius: 8px;
+  background: #181818;
+
+  color: #FFF;
+  font-family: Circular Std;
+  font-size: 16px;
+  font-weight: 450;
+  line-height: 150%; /* 24px */
+
+
+  transition: opacity 0.25s ease-out;
+
+  &:hover{
+    opacity: 0.9;
+  }
+}
+
+.subscribe__form {
+  flex-grow: 1;
+}

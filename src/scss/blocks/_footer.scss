@@ -1,0 +1,31 @@
+.footer {
+	padding: 80px 0;
+	background-color: var(--text-color);
+	padding: 50px 0;
+	font-size: 32px;
+  color: #fff;
+
+}
+
+.footer__row {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 128px;
+	align-items: start;
+
+}
+
+.footer__copyright {
+	display: grid;
+	gap: 24px;
+	max-width: 300px;
+}
+
+.footer__title {
+	color: #FFF;
+	font-family: Circular Std;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 450;
+	line-height: 150%; /* 24px */
+}

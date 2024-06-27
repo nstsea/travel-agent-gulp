@@ -1,0 +1,49 @@
+.nav__btns {
+  display: flex;
+  gap: 12px;
+}
+
+.btn-login {
+  padding: 8px 20px;
+  width: 81px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  border: 1px solid #B7B7B7;
+
+  color: #454545;
+  font-family: Circular Std;
+  font-size: 16px;
+  font-weight: 450;
+  line-height: 150%; /* 24px */
+}
+
+.btn-login:hover{
+  color: #454545;
+  opacity: 0.8;
+  transition: background-color 0.25s ease-in, color 0.25s ease-in, opacity 0.25s ease-in;
+}
+
+.btn-signup {
+  padding: 8px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  background: #181818;
+
+  color: var(--White, #FFF);
+  font-family: Circular Std;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 150%; /* 24px */
+}
+
+.btn-signup:hover{
+  color: #fff;
+  opacity: 0.8;
+  transition: background-color 0.25s ease-in, color 0.25s ease-in, opacity 0.25s ease-in;
+}
